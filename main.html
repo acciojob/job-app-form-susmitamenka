@@ -7,6 +7,9 @@
 		form,label,input,button{
 			display:block;
 			}
+		.a{
+			display:initial
+		}
 	</style>
 	<link rel="stylesheet" href="styles.css">
 </head>
@@ -19,12 +22,12 @@
 	<label for="Email">Email:</label>
 	<input type="Email input" id="email" required>
 	<label for="Genger">Gender:</label>
-     <input type="radio" name="gender" id="male">
-    <label for="male">Male</label>
-    <input type="radio" name="gender">
-    <label for="female">Female</label>
-    <input type="radio" name="gender">
-    <label for="others">Others</label>
+     <input type="radio" name="gender" id="male" class="a">
+    <label class="a"for="male">Male</label>
+    <input type="radio" name="gender" class="a">
+    <label class="a"for="female">Female</label>
+    <input type="radio" name="gender" class="a">
+    <label class="a"for="others">Others</label>
 	<label for="Laptop Brand">laptop Brand</label>
 	<input type="Dropdown" name="laptop" id="laptop" list="brandlist">
 	<datalist id="brandlist">
