@@ -24,25 +24,27 @@
 	<label for="Genger">Gender:</label>
      <input type="radio" name="gender" id="male" class="a">
     <label class="a"for="male">Male</label>
-    <input type="radio" name="male" class="a">
+    <input type="radio" name="gender" class="a">
     <label class="a"for="female">Female</label>
-    <input type="radio" name="female" class="a">
-    <label class="a"for="others">Others</label>
+    
+    
 	<label for="Laptop Brand">laptop Brand</label>
-	<input type="Dropdown" name="laptop" id="laptop" list="brandlist">
-	<datalist id="brandlist">
-	<option value="Apple"></option>
-	<option value="Asus"></option>
-	<option value="HP"></option> </datalist>
+	<!-- <input type="Dropdown" name="laptop" id="laptop" list="brandlist"> -->
+	<select id="brandlist">
+	<option value="">Laptop Brands</option>
+	<option value="Apple">Apple</option>
+	<option value="Asus">Asus</option>
+	<option value="HP">HP</option> 
+	</select>
 	<label for="Age">Age</label>
 	<input type="number"name="Age" id="age" required>
 	<label for="dob">Date of Birth</label>
-	<input type="number" id="dob" required>
+	<input type="date" id="dob" required>
 	<label for="Password">Password</label>
 	<input type="number" id="password" required>
 	<label for="Portfolio URL">Portfolio URL</label>
 	<input type="text" id="portfolio">
-	<button type="submit">submit</button>
+	<button type="submit">submit Button</button>
         
 		
 	</form>
